@@ -8,6 +8,7 @@ A self-hosted, automated trading bot for prediction markets on [Polymarket](http
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
+![Rating](https://img.shields.io/badge/rating-4.5%2F5_%E2%98%85-yellow?style=for-the-badge)
 
 [Features](#features) · [Download](#download) · [Installation](#installation) · [FAQ](#faq)
 
@@ -26,13 +27,16 @@ It's built for traders who want to automate positions on prediction markets (ele
 ## Features
 
 - **Self-hosted** — runs locally, your API keys and private keys never leave your machine
-- **Automated execution** — define rules once, the bot trades 24/7 without manual input
-- **Strategy engine** — built-in strategies (momentum, mean-reversion, arbitrage) or write your own
-- **Prediction market focused** — built specifically around Polymarket's market structure and order types
-- **Risk management** — stop-loss, position sizing, and exposure limits configurable per strategy
-- **Backtesting** — validate a strategy against historical Polymarket data before going live
-- **Notifications** — optional Discord/Telegram alerts on trade execution
-- **Simple configuration** — one config file, no coding required to get started
+- **YES/NO market trading** — places and manages orders on Polymarket's binary outcome shares automatically
+- **Automated execution** — define rules once, the bot trades 24/7 across active markets without manual input
+- **Strategy engine** — built-in strategies (momentum, mean-reversion, order book arbitrage) tuned for prediction market price behavior
+- **Odds & probability tracking** — monitors implied probability shifts as markets move toward resolution
+- **Category filtering** — target specific market categories (elections, sports, crypto, economics, current events)
+- **Risk management** — stop-loss, position sizing, and exposure limits configurable per strategy or per market
+- **Resolution-aware exits** — automatically reduces or closes positions as a market approaches its resolution date
+- **Backtesting** — validate a strategy against historical Polymarket price and volume data before going live
+- **Notifications** — optional Discord/Telegram alerts on order fills and market resolutions
+- **USDC-native** — trades directly in USDC, matching Polymarket's settlement currency
 
 ## Download
 

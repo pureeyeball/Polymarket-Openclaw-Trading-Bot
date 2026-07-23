@@ -5,10 +5,10 @@
 A self-hosted, automated trading bot for prediction markets on [Polymarket](https://polymarket.com)
 
 ![Downloads](https://img.shields.io/badge/downloads-23k%2B-brightgreen?style=for-the-badge&logo=github)
+![Rating](https://img.shields.io/badge/rating-4.5%2F5_%E2%98%85-yellow?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
-![Rating](https://img.shields.io/badge/rating-4.5%2F5_%E2%98%85-yellow?style=for-the-badge)
 
 [Features](#features) · [Download](#download) · [Installation](#installation) · [FAQ](#faq)
 

@@ -2,7 +2,7 @@
 
 # Polymarket OpenClaw Trading Bot
 
-A self-hosted, automated trading bot for prediction markets on [Polymarket](https://polymarket.com)
+**A self-hosted, automated trading bot for prediction markets on [Polymarket](https://polymarket.com)**
 
 ![Downloads](https://img.shields.io/badge/downloads-23k%2B-brightgreen?style=for-the-badge&logo=github)
 ![Rating](https://img.shields.io/badge/rating-4.5%2F5_%E2%98%85-yellow?style=for-the-badge)

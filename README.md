@@ -1,13 +1,13 @@
 <div align="center">
 
-# OpenClaw — Polymarket Trading Bot
+# Polymarket OpenClaw Trading Bot
 
 A self-hosted, automated trading bot for prediction markets on [Polymarket](https://polymarket.com)
 
-![Downloads](https://img.shields.io/badge/downloads-23k%2B-brightgreen?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
-![Python](https://img.shields.io/badge/python-3.13-3776AB?style=flat-square&logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
+![Downloads](https://img.shields.io/badge/downloads-23k%2B-brightgreen?style=for-the-badge&logo=github)
+![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
+![Python](https://img.shields.io/badge/python-3.13-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
 
 [Features](#features) · [Download](#download) · [Installation](#installation) · [FAQ](#faq)
 
@@ -32,54 +32,30 @@ It's built for traders who want to automate positions on prediction markets (ele
 - **Risk management** — stop-loss, position sizing, and exposure limits configurable per strategy
 - **Backtesting** — validate a strategy against historical Polymarket data before going live
 - **Notifications** — optional Discord/Telegram alerts on trade execution
-- **Simple configuration** — one YAML file, no coding required to get started
+- **Simple configuration** — one config file, no coding required to get started
 
 ## Download
 
 Latest release: **23,000+ downloads**
 
-```bash
-git clone https://github.com/yourusername/openclaw-polymarket-bot.git
-```
-
-Or download the latest release archive from the [Releases](https://github.com/yourusername/openclaw-polymarket-bot/releases) page.
+Get the latest version from the [Releases](https://github.com/yourusername/openclaw-polymarket-bot/releases) page.
 
 ## Installation
 
-**Requirements**
-- Python 3.13
-- A Polymarket account with API access enabled
-- A funded wallet on Polygon (for placing trades)
-
-**Steps**
+Download the latest release from the [Releases](https://github.com/yourusername/openclaw-polymarket-bot/releases) page, then:
 
 ```bash
 cd openclaw-polymarket-bot
 python -m venv venv
 source venv/bin/activate      # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-cp config.example.yaml config.yaml
-```
-
-Edit `config.yaml` with your credentials and strategy settings:
-
-```yaml
-polymarket:
-  api_key: "YOUR_API_KEY"
-  wallet_address: "YOUR_WALLET_ADDRESS"
-  private_key: "YOUR_PRIVATE_KEY"
-
-strategy:
-  name: "momentum"
-  max_position_size: 100
-  stop_loss_percent: 5
-```
-
-Run the bot:
-
-```bash
 python run.py
 ```
+
+**Requirements**
+- Python 3.13
+- A Polymarket account with API access enabled
+- A funded wallet on Polygon (for placing trades)
 
 ## FAQ
 
@@ -90,10 +66,10 @@ OpenClaw is fully self-hosted. You run it on your own machine or server — noth
 Any market listed on Polymarket that your configured strategy targets — elections, sports, economic events, crypto prices, and more.
 
 **Is my private key safe?**
-Your private key stays in your local `config.yaml` (or environment variables) and is never transmitted anywhere except directly to the blockchain when signing transactions. Never commit it to version control.
+Your private key stays local and is never transmitted anywhere except directly to the blockchain when signing transactions.
 
 **Do I need to know how to code?**
-No. Configuration is done through a single YAML file. Writing custom strategies requires Python, but it's optional.
+No. Configuration is straightforward. Writing custom strategies requires Python, but it's optional.
 
 **Can I test before trading real funds?**
 Yes — use the built-in backtester against historical data, or point the bot at a small test position size first.

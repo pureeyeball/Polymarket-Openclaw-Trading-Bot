@@ -1,15 +1,13 @@
 <div align="center">
 
 # Polymarket OpenClaw Trading Bot
-
 A self-hosted, automated trading bot for prediction markets on [Polymarket](https://polymarket.com)
 
-![Downloads](https://img.shields.io/badge/downloads-23k%2B-brightgreen?style=for-the-badge&logo=github)
-![Rating](https://img.shields.io/badge/rating-4.5%2F5_%E2%98%85-yellow?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
+![Downloads](https://img.shields.io/badge/downloads-23k%2B-brightgreen?style=for-the-badge&logo=github) ![Rating](https://img.shields.io/badge/rating-4.5%2F5_%E2%98%85-yellow?style=for-the-badge) ![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge) ![Status](https://img.shields.io/badge/status-active-success?style=for-the-badge)
 
 [Features](#features) · [Download](#download) · [Setting Up](#setting-up) · [FAQ](#faq)
+
+<video src="https://github.com/user-attachments/assets/e3273989-a965-483b-b6a2-cdb7f0d99bb8" controls width="400"></video>
 
 </div>
 

